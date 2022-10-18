@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:itunes/screens/home_screen.dart';
 import 'package:itunes/screens/main_page.dart';
 import 'package:lottie/lottie.dart';
@@ -24,7 +25,10 @@ class SplashScreen extends StatelessWidget {
           children: [
             Lottie.asset("asset/52679-music-loader.json",
                 animate: true, repeat: true),
-            Text("Itunes")
+            Text(
+              "Itunes",
+              style: GoogleFonts.actor(fontSize: 30, color: Colors.white),
+            )
           ],
         ),
       ),
